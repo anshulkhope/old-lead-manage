@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-import { MdbCollapseDirective } from 'mdb-angular-ui-kit/collapse';
 
 @Component({
   selector: 'app-header',
@@ -8,12 +6,10 @@ import { MdbCollapseDirective } from 'mdb-angular-ui-kit/collapse';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  constructor(
-    private router: Router
-  ) { }
+
+  constructor() { }
 
   ngOnInit(): void {
-    
   }
 
 }

@@ -3,7 +3,7 @@
     <!-- Container wrapper -->
     <div class="container-fluid">
       <!-- Navbar brand -->
-      <a class="navbar-brand" routerLink="/"><img src="assets/img/favicon.png" alt="..." class="mb-2">Lead Manage</a>
+      <a class="navbar-brand" routerLink="/"><img class="mb-1" src="assets/img/favicon.png" alt=".">Lead Manage</a>
   
       <!-- Toggle button -->
       <button
@@ -26,11 +26,17 @@
         <!-- Left links -->
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" routerLink="/home" routerLinkActive="active">Home</a>
+            <a class="nav-link" routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" routerLink="/leads" routerLinkActive="active">Leads</a>
-          </li>
+          <!-- <div mdbDropdown class="nav-link" style="height:10px">
+            <a class="nav-link" routerLinkActive="active" mdbDropdownToggle>Client</a>
+
+            <ul mdbDropdownMenu class="dropdown-menu">
+              <li><a class="dropdown-item" routerLink="/client/add">Add</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div> -->
         </ul>
         <!-- Left links -->
       </div>
