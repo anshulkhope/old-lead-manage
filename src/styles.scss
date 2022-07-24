@@ -8,3 +8,23 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 @import '~@fortawesome/fontawesome-free/scss/brands.scss';
  
 @import '~mdb-angular-ui-kit/assets/scss/mdb.scss';
+
+body {
+  padding-top: 5rem;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+.card-sm {
+  max-width: 15rem;
+  padding: 1.2rem;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  background: green;
+}
+.card-sm:hover {
+  color: white;
+}

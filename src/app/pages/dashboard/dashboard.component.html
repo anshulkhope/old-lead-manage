@@ -1,12 +1,29 @@
 <div class="container">
-    <div class="card shadow-4-strong mt-2">
+    <div class="card shadow-lg">
         <div class="card-header">
-            <h5>LeadManage Dashboard</h5>
+            <h5 class="card-title">Lead Manage</h5>
         </div>
         <div class="card-body">
             <p class="card-text">
-                This is the LM_Dash
+                Welcome to Lead Manage!
             </p>
         </div>
+        <div class="card-footer">
+            <button type="button" class="btn btn-primary" mdbRipple
+                mdbTooltip="Sign in into lead-manage">
+                Sign In
+            </button>
+        </div>
     </div>
+</div>
+<hr>
+<div class="container">
+    <a class="card card-sm btn" role="button" routerLink="/leads">
+        <div class="card-body">
+            <h5 class="card-title">Leads</h5>
+            <p class="card-text">
+                0
+            </p>
+        </div>
+    </a>
 </div>

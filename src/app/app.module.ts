@@ -22,6 +22,7 @@ import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { FooterComponent } from './partials/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
     HeaderComponent,
     NotFoundComponent,
     DashboardComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
